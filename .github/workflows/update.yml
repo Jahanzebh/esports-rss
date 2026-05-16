@@ -2,8 +2,11 @@ name: Update Esports RSS Feed
 
 on:
   schedule:
-    - cron: '0 */6 * * *'   # runs every 6 hours
-  workflow_dispatch:          # lets you trigger it manually
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   build:
@@ -29,3 +32,5 @@ jobs:
           git add feed.xml
           git diff --cached --quiet || git commit -m "Update esports feed"
           git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
