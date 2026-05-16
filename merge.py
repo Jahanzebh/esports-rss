@@ -23,14 +23,14 @@ FEEDS = [
     ("Inven Global",          "https://www.invenglobal.com/feed"),
     ("HLTV",                  "https://www.hltv.org/rss/news"),
 
-# Google News RSS 
-("Google News — SEA Esports",      "https://news.google.com/rss/search?q=esports+southeast+asia&hl=en-US&gl=US&ceid=US:en"),
-("Google News — MPL",              "https://news.google.com/rss/search?q=MPL+esports&hl=en-US&gl=US&ceid=US:en"),
-("Google News — VCT Pacific",      "https://news.google.com/rss/search?q=VCT+Pacific+valorant&hl=en-US&gl=US&ceid=US:en"),
-("Google News — MLBB Tournament",  "https://news.google.com/rss/search?q=mobile+legends+tournament&hl=en-US&gl=US&ceid=US:en"),
-("Google News — DOTA2 SEA",        "https://news.google.com/rss/search?q=dota+2+sea+tournament&hl=en-US&gl=US&ceid=US:en"),
-("Google News — Esports Events",   "https://news.google.com/rss/search?q=esports+tournament+2026&hl=en-US&gl=US&ceid=US:en"),
-],
+    # --- Google News RSS ---
+    ("Google News — SEA Esports",     "https://news.google.com/rss/search?q=esports+southeast+asia&hl=en-US&gl=US&ceid=US:en"),
+    ("Google News — MPL",             "https://news.google.com/rss/search?q=MPL+esports&hl=en-US&gl=US&ceid=US:en"),
+    ("Google News — VCT Pacific",     "https://news.google.com/rss/search?q=VCT+Pacific+valorant&hl=en-US&gl=US&ceid=US:en"),
+    ("Google News — MLBB Tournament", "https://news.google.com/rss/search?q=mobile+legends+tournament&hl=en-US&gl=US&ceid=US:en"),
+    ("Google News — DOTA2 SEA",       "https://news.google.com/rss/search?q=dota+2+sea+tournament&hl=en-US&gl=US&ceid=US:en"),
+    ("Google News — Esports Events",  "https://news.google.com/rss/search?q=esports+tournament+2026&hl=en-US&gl=US&ceid=US:en"),
+]
 
 SEA_KEYWORDS = [
     "sea", "southeast asia", "malaysia", "indonesia", "philippines",
