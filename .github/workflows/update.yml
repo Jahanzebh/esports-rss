@@ -2,7 +2,7 @@ name: Update Esports RSS Feed
 
 on:
   schedule:
-    - cron: '0 */6 * * *'
+    - cron: '30 1,4,7,10,13,16,19,22 * * *'
   workflow_dispatch:
 
 permissions:
